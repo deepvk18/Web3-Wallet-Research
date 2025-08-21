@@ -12,7 +12,7 @@ dotenv_1.default.config();
 const app = (0, express_1.default)();
 // CORS Configuration - Allow frontend to connect
 app.use((0, cors_1.default)({
-    origin: ['https://d24vralsh5rrvk.cloudfront.net', 'http://127.0.0.1:3000'],
+    origin: ['https://d35l33hbvduuxh.cloudfront.net/', 'http://127.0.0.1:3000'],
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
     allowedHeaders: ['Content-Type', 'Authorization'],
     credentials: true

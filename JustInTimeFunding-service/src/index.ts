@@ -10,7 +10,7 @@ const app = express();
 
 // CORS Configuration - Allow frontend to connect
 app.use(cors({
-    origin: ['https://d35l33hbvduuxh.cloudfront.net/', 'http://127.0.0.1:3000'],
+    origin: ['https://d35l33hbvduuxh.cloudfront.net', 'http://127.0.0.1:3000'],
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
     allowedHeaders: ['Content-Type', 'Authorization'],
     credentials: true
